@@ -15,115 +15,16 @@ spec:
     commit:
       author:
         name: BhaveshBhagat
-        email: bhaveshbhagat724@gmailcom
+        email: bhaveshbhagat724@gmail.com
       messageTemplate: | 
         magic
       signingKey:
         secretRef:
-          name: gittoken
+          name: token
     push:
       branch: gh-pages
   update:
     path: .
     strategy: Setters
 
----
-apiVersion: v1
-kind: Secret
-metadata:
-  name: gittoken
-  namespace: flux-system
-stringData:
-  git.asc: |
-    -----BEGIN PGP PUBLIC KEY BLOCK-----
 
-    mQENBGVAnsMBCAC+JciLjyhhl9OaqU6SbtyPcTv81ErJwAvXlYM+gLTrxZyXfCEh
-    mn81G4aWjiD71JibwgpN3tEHBe6t2Kz5NuIn+qilid7jDznBaa6Dz37JsjgaiK3e
-    2PBlMyKL/ypidSnYDku+/Zv1aTq7Xoltujw4iL1AZfNoVA+z+RCvNcjPeGZGoBCR
-    nuYENi9YJiCYSaSVvhMC2iJIN54V2DauoovfGR/5MrP7ZOyiWJXHpDvRWb1TbTgG
-    TZDG6ZIizMrgiuSL/kkJ+yaR/sOwu85iuI5D9PeZ09Qh8wPy4x/wveT8UQskxMtn
-    +4BfcSPEgyPoyI8OC2j01hQC8zipafuWwLqrABEBAAG0KkJoYXZlc2hCaGFnYXQg
-    PGJoYXZlc2hiaGFnYXQ3MjRAZ21haWwuY29tPokBTgQTAQgAOBYhBBXmDpByi7KM
-    YD+Mw8B7qqR6PBFpBQJlQJ7DAhsDBQsJCAcCBhUKCQgLAgQWAgMBAh4BAheAAAoJ
-    EMB7qqR6PBFpgrQIAKUKddNS9FvxyBbSqevEXvNRSNMi3e0rpiuBFPXomDmo1RzB
-    3LKoQHOYby4/0st2BS4LwHuCRdLg+0NBETgycPyOOgh+Y1pO/t+90AFNhGnS09Ut
-    Uz48aMNrW02CN4JeoVPF49pIcjuWw3XsyN/2oURlb1D2nwL97q4nxw5yBGeydLYC
-    FM9zLUm624nFOUdKWUSqvb89j+XJidtkGLp//G0/3MC/hBWRTgma1ObSNznllDtk
-    4f4J8qwUOS88RCcWNaIwnejLigzv/MZGoO8uEdMlrHHAgzm9p9QwbdbvmCPDBOn4
-    4uElwXGUzBhx6/M3HZ4GCH9ijhRWJKKRZT+PMOq5AQ0EZUCewwEIAMgvnyeaYMLo
-    8tu1Q8M+EL4COCccpH+pwZFWAtvOVt7645QZp7JdtFsPO0SLqxkywW7o6CRC3crD
-    rtAK/VoDbSyFsKPjfvL5YbhSMA0y54SgS6czxKyBCrpH/R6x+/DXwsEqmMZKevp/
-    F/Owalc75WlwCeCRTX7lpsdnnmUxxVR+egnmML9ERMbzFhz6wGpc+igzOsDyOLyy
-    R+C/MMZJ/XcYRYsEx63LUhzaWAvRuAmb8rRoLdV0wbpXe3MvoFz0RU4tXZ3Rsf93
-    elQyvu+FpNdSsM9PX2MtEwNuC+2UEp7vO0+XIm1PqzcT9MYbFso+0uqzXAVy+J4O
-    g0Qcq5KakEkAEQEAAYkBNgQYAQgAIBYhBBXmDpByi7KMYD+Mw8B7qqR6PBFpBQJl
-    QJ7DAhsMAAoJEMB7qqR6PBFprY8IAKxk172fTSh0jBxxN5FRXANYmDxyZsHZij5i
-    dPR8V5jb/h1SStEjb6/bX/yCaiyvTDg/SSCF0c1o+aYshGuGYmlfzvjAY/QX1kSL
-    LRtIgq8mlsPA1Fw2GxV2MhKNgLs1aXSBPpnLFdeOsUubi/bcizWvibqRKW/MAQOq
-    YRv0Bbdh028tvhh/airfFWx5jtU01InkkSFvpXJrSr66XH/bghyYIkP00M2EaBaS
-    gOVogvxUGwMbVoGD5qX01Vg3DoCQ/w+dtFBE/9Lkomuo9+co1vv/bsifMXF8GbVP
-    6WXdXh/TcZudNJ2GTxKAacSUhyzA0GkvZywLye3TdFuwsqLlVPs=
-    =sV0O
-    -----END PGP PUBLIC KEY BLOCK-----
-  git.asc: |
-    -----BEGIN PGP PRIVATE KEY BLOCK-----
-
-    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
-    =2jiV
-    -----END PGP PRIVATE KEY BLOCK-----
-    
-  passphrase: Radisys@10    

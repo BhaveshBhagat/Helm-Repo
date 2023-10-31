@@ -15,5 +15,5 @@ spec:
       interval: 1m
   values:
     image:
-      repository: ghcr.io/stefanprodan/podinfo # {"$imagepolicy": "flux-system:bbimgpolicy:name"}
-      tag: 6.1.1 # {"$imagepolicy": "flux-system:bbimgpolicy:tag"}
+      repository: ghcr.io/stefanprodan/podinfo
+      tag: 6.1.1
