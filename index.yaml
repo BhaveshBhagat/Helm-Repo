@@ -3,9 +3,9 @@ entries:
   podinfo:
   - apiVersion: v1
     appVersion: 6.5.1
-    created: "2023-10-16T14:56:46.494569264+05:30"
+    created: "2023-10-31T11:19:31.150006843+05:30"
     description: Podinfo Helm chart for Kubernetes
-    digest: d1543db5c4adc56b8877674bcd9934f38dc4744b553b44e97f04a31907656473
+    digest: c8d9148d7804dff85e86524a00d9676756ba93b8118c885ec0be6166eacada86
     home: https://github.com/stefanprodan/podinfo
     kubeVersion: '>=1.23.0-0'
     maintainers:
@@ -17,4 +17,452 @@ entries:
     urls:
     - https://bhaveshbhagat.github.io/Helm-Repo/podinfo-6.5.1.tgz
     version: 6.5.1
-generated: "2023-10-16T14:56:46.493120089+05:30"
+  - apiVersion: v1
+    appVersion: 6.5.0
+    created: "2023-10-31T11:19:31.148854416+05:30"
+    description: Podinfo Helm chart for Kubernetes
+    digest: f14121a0ff598ff6d5529e0ec6921ff0e977794415394351dc239648a1c66d8b
+    home: https://github.com/stefanprodan/podinfo
+    kubeVersion: '>=1.23.0-0'
+    maintainers:
+    - email: stefanprodan@users.noreply.github.com
+      name: stefanprodan
+    name: podinfo
+    sources:
+    - https://github.com/stefanprodan/podinfo
+    urls:
+    - https://bhaveshbhagat.github.io/Helm-Repo/podinfo-6.5.0.tgz
+    version: 6.5.0
+  - apiVersion: v1
+    appVersion: 6.4.1
+    created: "2023-10-31T11:19:31.147726963+05:30"
+    description: Podinfo Helm chart for Kubernetes
+    digest: de52869caf4334f5e20ec4069600a0eb77012ae235cf5151d1cfa48690ad4bd2
+    home: https://github.com/stefanprodan/podinfo
+    kubeVersion: '>=1.23.0-0'
+    maintainers:
+    - email: stefanprodan@users.noreply.github.com
+      name: stefanprodan
+    name: podinfo
+    sources:
+    - https://github.com/stefanprodan/podinfo
+    urls:
+    - https://bhaveshbhagat.github.io/Helm-Repo/podinfo-6.4.1.tgz
+    version: 6.4.1
+  - apiVersion: v1
+    appVersion: 6.4.0
+    created: "2023-10-31T11:19:31.146597582+05:30"
+    description: Podinfo Helm chart for Kubernetes
+    digest: 605d2474d729917fb26201ebcc509c197c67ded1fb5b3b8e8f56ade5470332fb
+    home: https://github.com/stefanprodan/podinfo
+    kubeVersion: '>=1.23.0-0'
+    maintainers:
+    - email: stefanprodan@users.noreply.github.com
+      name: stefanprodan
+    name: podinfo
+    sources:
+    - https://github.com/stefanprodan/podinfo
+    urls:
+    - https://bhaveshbhagat.github.io/Helm-Repo/podinfo-6.4.0.tgz
+    version: 6.4.0
+  - apiVersion: v1
+    appVersion: 6.3.6
+    created: "2023-10-31T11:19:31.145475106+05:30"
+    description: Podinfo Helm chart for Kubernetes
+    digest: e5ebb37f8f3da3cf9b7f80c09e10a538ac894caa2b513d01ad553e3d8a0fa0d9
+    home: https://github.com/stefanprodan/podinfo
+    kubeVersion: '>=1.23.0-0'
+    maintainers:
+    - email: stefanprodan@users.noreply.github.com
+      name: stefanprodan
+    name: podinfo
+    sources:
+    - https://github.com/stefanprodan/podinfo
+    urls:
+    - https://bhaveshbhagat.github.io/Helm-Repo/podinfo-6.3.6.tgz
+    version: 6.3.6
+  - apiVersion: v1
+    appVersion: 6.3.5
+    created: "2023-10-31T11:19:31.144358609+05:30"
+    description: Podinfo Helm chart for Kubernetes
+    digest: fd4eb96a0d52b4e824760084dc7cf8cfe091252dff2bb64583b050a2ddf5fc76
+    home: https://github.com/stefanprodan/podinfo
+    kubeVersion: '>=1.23.0-0'
+    maintainers:
+    - email: stefanprodan@users.noreply.github.com
+      name: stefanprodan
+    name: podinfo
+    sources:
+    - https://github.com/stefanprodan/podinfo
+    urls:
+    - https://bhaveshbhagat.github.io/Helm-Repo/podinfo-6.3.5.tgz
+    version: 6.3.5
+  - apiVersion: v1
+    appVersion: 6.3.4
+    created: "2023-10-31T11:19:31.143251295+05:30"
+    description: Podinfo Helm chart for Kubernetes
+    digest: dd0dfc05ab5f99fcbc8ab74e8721d12eff986eeea337275a175ff5db5a211ac3
+    home: https://github.com/stefanprodan/podinfo
+    kubeVersion: '>=1.23.0-0'
+    maintainers:
+    - email: stefanprodan@users.noreply.github.com
+      name: stefanprodan
+    name: podinfo
+    sources:
+    - https://github.com/stefanprodan/podinfo
+    urls:
+    - https://bhaveshbhagat.github.io/Helm-Repo/podinfo-6.3.4.tgz
+    version: 6.3.4
+  - apiVersion: v1
+    appVersion: 6.3.3
+    created: "2023-10-31T11:19:31.142070819+05:30"
+    description: Podinfo Helm chart for Kubernetes
+    digest: 1cc01fea25a3ee02090ad08096cc88172f608f1b9f3d71a65f1786914f5c5bf4
+    home: https://github.com/stefanprodan/podinfo
+    kubeVersion: '>=1.23.0-0'
+    maintainers:
+    - email: stefanprodan@users.noreply.github.com
+      name: stefanprodan
+    name: podinfo
+    sources:
+    - https://github.com/stefanprodan/podinfo
+    urls:
+    - https://bhaveshbhagat.github.io/Helm-Repo/podinfo-6.3.3.tgz
+    version: 6.3.3
+  - apiVersion: v1
+    appVersion: 6.3.2
+    created: "2023-10-31T11:19:31.139818836+05:30"
+    description: Podinfo Helm chart for Kubernetes
+    digest: e542e5c113dfca0b1f3ad0fba8efb490ac07ca9462b121e26ee7bf05797bb087
+    home: https://github.com/stefanprodan/podinfo
+    kubeVersion: '>=1.23.0-0'
+    maintainers:
+    - email: stefanprodan@users.noreply.github.com
+      name: stefanprodan
+    name: podinfo
+    sources:
+    - https://github.com/stefanprodan/podinfo
+    urls:
+    - https://bhaveshbhagat.github.io/Helm-Repo/podinfo-6.3.2.tgz
+    version: 6.3.2
+  - apiVersion: v1
+    appVersion: 6.3.1
+    created: "2023-10-31T11:19:31.138631631+05:30"
+    description: Podinfo Helm chart for Kubernetes
+    digest: 12289014b4d7c2bd561fceb781cb9c7b012fdea2c2d2c8484a075e6bc4986762
+    home: https://github.com/stefanprodan/podinfo
+    kubeVersion: '>=1.23.0-0'
+    maintainers:
+    - email: stefanprodan@users.noreply.github.com
+      name: stefanprodan
+    name: podinfo
+    sources:
+    - https://github.com/stefanprodan/podinfo
+    urls:
+    - https://bhaveshbhagat.github.io/Helm-Repo/podinfo-6.3.1.tgz
+    version: 6.3.1
+  - apiVersion: v1
+    appVersion: 6.3.0
+    created: "2023-10-31T11:19:31.137370188+05:30"
+    description: Podinfo Helm chart for Kubernetes
+    digest: 0b05a9f1ced955412a8dccf87d18b07781374638e22875f40cd725e90402ac18
+    home: https://github.com/stefanprodan/podinfo
+    kubeVersion: '>=1.23.0-0'
+    maintainers:
+    - email: stefanprodan@users.noreply.github.com
+      name: stefanprodan
+    name: podinfo
+    sources:
+    - https://github.com/stefanprodan/podinfo
+    urls:
+    - https://bhaveshbhagat.github.io/Helm-Repo/podinfo-6.3.0.tgz
+    version: 6.3.0
+  - apiVersion: v1
+    appVersion: 6.2.3
+    created: "2023-10-31T11:19:31.136212955+05:30"
+    description: Podinfo Helm chart for Kubernetes
+    digest: a6eafb56bf01bc6316d6781660d2efa6d70b611ecadec857bb4e96cd560b1c73
+    home: https://github.com/stefanprodan/podinfo
+    kubeVersion: '>=1.19.0-0'
+    maintainers:
+    - email: stefanprodan@users.noreply.github.com
+      name: stefanprodan
+    name: podinfo
+    sources:
+    - https://github.com/stefanprodan/podinfo
+    urls:
+    - https://bhaveshbhagat.github.io/Helm-Repo/podinfo-6.2.3.tgz
+    version: 6.2.3
+  - apiVersion: v1
+    appVersion: 6.2.2
+    created: "2023-10-31T11:19:31.134820318+05:30"
+    description: Podinfo Helm chart for Kubernetes
+    digest: a56dc9375426973ff2e4b2d5427b64063656f88da370b7f151367708aefee7ed
+    home: https://github.com/stefanprodan/podinfo
+    kubeVersion: '>=1.19.0-0'
+    maintainers:
+    - email: stefanprodan@users.noreply.github.com
+      name: stefanprodan
+    name: podinfo
+    sources:
+    - https://github.com/stefanprodan/podinfo
+    urls:
+    - https://bhaveshbhagat.github.io/Helm-Repo/podinfo-6.2.2.tgz
+    version: 6.2.2
+  - apiVersion: v1
+    appVersion: 6.2.1
+    created: "2023-10-31T11:19:31.133503942+05:30"
+    description: Podinfo Helm chart for Kubernetes
+    digest: ee159fe369d8cb541845daecdc7faead83fee012288672b1e5baac77ad5ff8c1
+    home: https://github.com/stefanprodan/podinfo
+    kubeVersion: '>=1.19.0-0'
+    maintainers:
+    - email: stefanprodan@users.noreply.github.com
+      name: stefanprodan
+    name: podinfo
+    sources:
+    - https://github.com/stefanprodan/podinfo
+    urls:
+    - https://bhaveshbhagat.github.io/Helm-Repo/podinfo-6.2.1.tgz
+    version: 6.2.1
+  - apiVersion: v1
+    appVersion: 6.2.0
+    created: "2023-10-31T11:19:31.132462111+05:30"
+    description: Podinfo Helm chart for Kubernetes
+    digest: b97b198ca82f23fab46aca8455d6e86856628890babdfb43d8a79a7abb674d30
+    home: https://github.com/stefanprodan/podinfo
+    kubeVersion: '>=1.19.0-0'
+    maintainers:
+    - email: stefanprodan@users.noreply.github.com
+      name: stefanprodan
+    name: podinfo
+    sources:
+    - https://github.com/stefanprodan/podinfo
+    urls:
+    - https://bhaveshbhagat.github.io/Helm-Repo/podinfo-6.2.0.tgz
+    version: 6.2.0
+  - apiVersion: v1
+    appVersion: 6.1.8
+    created: "2023-10-31T11:19:31.131391742+05:30"
+    description: Podinfo Helm chart for Kubernetes
+    digest: e69045cb3cdeb1bb2be9600671db8260bc8caa5ea352453bf59abee0ff38a333
+    home: https://github.com/stefanprodan/podinfo
+    kubeVersion: '>=1.19.0-0'
+    maintainers:
+    - email: stefanprodan@users.noreply.github.com
+      name: stefanprodan
+    name: podinfo
+    sources:
+    - https://github.com/stefanprodan/podinfo
+    urls:
+    - https://bhaveshbhagat.github.io/Helm-Repo/podinfo-6.1.8.tgz
+    version: 6.1.8
+  - apiVersion: v1
+    appVersion: 6.1.7
+    created: "2023-10-31T11:19:31.130287953+05:30"
+    description: Podinfo Helm chart for Kubernetes
+    digest: 41ca43c1833e78c047b1a12cd0b2f5ecfd1d264075ff73c2e756df289eb76bc0
+    home: https://github.com/stefanprodan/podinfo
+    kubeVersion: '>=1.19.0-0'
+    maintainers:
+    - email: stefanprodan@users.noreply.github.com
+      name: stefanprodan
+    name: podinfo
+    sources:
+    - https://github.com/stefanprodan/podinfo
+    urls:
+    - https://bhaveshbhagat.github.io/Helm-Repo/podinfo-6.1.7.tgz
+    version: 6.1.7
+  - apiVersion: v1
+    appVersion: 6.1.6
+    created: "2023-10-31T11:19:31.129203633+05:30"
+    description: Podinfo Helm chart for Kubernetes
+    digest: 4578752316dc3cb0aacc073171bc97f05465e650c5849b7faa2d530bb74cc6cc
+    home: https://github.com/stefanprodan/podinfo
+    kubeVersion: '>=1.19.0-0'
+    maintainers:
+    - email: stefanprodan@users.noreply.github.com
+      name: stefanprodan
+    name: podinfo
+    sources:
+    - https://github.com/stefanprodan/podinfo
+    urls:
+    - https://bhaveshbhagat.github.io/Helm-Repo/podinfo-6.1.6.tgz
+    version: 6.1.6
+  - apiVersion: v1
+    appVersion: 6.1.5
+    created: "2023-10-31T11:19:31.12800624+05:30"
+    description: Podinfo Helm chart for Kubernetes
+    digest: bc2957a62d75086b2c436f8444be728aaf32f69decf87c4f81555ff02945b3f7
+    home: https://github.com/stefanprodan/podinfo
+    kubeVersion: '>=1.19.0-0'
+    maintainers:
+    - email: stefanprodan@users.noreply.github.com
+      name: stefanprodan
+    name: podinfo
+    sources:
+    - https://github.com/stefanprodan/podinfo
+    urls:
+    - https://bhaveshbhagat.github.io/Helm-Repo/podinfo-6.1.5.tgz
+    version: 6.1.5
+  - apiVersion: v1
+    appVersion: 6.1.4
+    created: "2023-10-31T11:19:31.126626835+05:30"
+    description: Podinfo Helm chart for Kubernetes
+    digest: 7c3ee79ea5e96a58e8b2d4eb70b358a2dcb1aa685a2d0cff6de8fc6da0c2c324
+    home: https://github.com/stefanprodan/podinfo
+    kubeVersion: '>=1.19.0-0'
+    maintainers:
+    - email: stefanprodan@users.noreply.github.com
+      name: stefanprodan
+    name: podinfo
+    sources:
+    - https://github.com/stefanprodan/podinfo
+    urls:
+    - https://bhaveshbhagat.github.io/Helm-Repo/podinfo-6.1.4.tgz
+    version: 6.1.4
+  - apiVersion: v1
+    appVersion: 6.1.3
+    created: "2023-10-31T11:19:31.124961063+05:30"
+    description: Podinfo Helm chart for Kubernetes
+    digest: 2486f91f29761fdbe95a7efa8b9f50152436e595bc9a3242f4bc0960bcc8e336
+    home: https://github.com/stefanprodan/podinfo
+    kubeVersion: '>=1.19.0-0'
+    maintainers:
+    - email: stefanprodan@users.noreply.github.com
+      name: stefanprodan
+    name: podinfo
+    sources:
+    - https://github.com/stefanprodan/podinfo
+    urls:
+    - https://bhaveshbhagat.github.io/Helm-Repo/podinfo-6.1.3.tgz
+    version: 6.1.3
+  - apiVersion: v1
+    appVersion: 6.1.2
+    created: "2023-10-31T11:19:31.123755796+05:30"
+    description: Podinfo Helm chart for Kubernetes
+    digest: 9c5eb0f3db75e11c93350db2c86f4a46b0217d8751f72fab22d5b8010bab37e1
+    home: https://github.com/stefanprodan/podinfo
+    kubeVersion: '>=1.19.0-0'
+    maintainers:
+    - email: stefanprodan@users.noreply.github.com
+      name: stefanprodan
+    name: podinfo
+    sources:
+    - https://github.com/stefanprodan/podinfo
+    urls:
+    - https://bhaveshbhagat.github.io/Helm-Repo/podinfo-6.1.2.tgz
+    version: 6.1.2
+  - apiVersion: v1
+    appVersion: 6.1.1
+    created: "2023-10-31T11:19:31.122321597+05:30"
+    description: Podinfo Helm chart for Kubernetes
+    digest: 3813303cd5d5c8f984b4c83f30557c3ba1a554a588f5f9a99e01a8fb25605fe7
+    home: https://github.com/stefanprodan/podinfo
+    kubeVersion: '>=1.19.0-0'
+    maintainers:
+    - email: stefanprodan@users.noreply.github.com
+      name: stefanprodan
+    name: podinfo
+    sources:
+    - https://github.com/stefanprodan/podinfo
+    urls:
+    - https://bhaveshbhagat.github.io/Helm-Repo/podinfo-6.1.1.tgz
+    version: 6.1.1
+  - apiVersion: v1
+    appVersion: 6.1.0
+    created: "2023-10-31T11:19:31.121238024+05:30"
+    description: Podinfo Helm chart for Kubernetes
+    digest: 0a38de83697c0cd8c7f7638039b9610c6669bc06ec261496969623ace7fc18c5
+    home: https://github.com/stefanprodan/podinfo
+    kubeVersion: '>=1.19.0-0'
+    maintainers:
+    - email: stefanprodan@users.noreply.github.com
+      name: stefanprodan
+    name: podinfo
+    sources:
+    - https://github.com/stefanprodan/podinfo
+    urls:
+    - https://bhaveshbhagat.github.io/Helm-Repo/podinfo-6.1.0.tgz
+    version: 6.1.0
+  - apiVersion: v1
+    appVersion: 6.0.4
+    created: "2023-10-31T11:19:31.120111405+05:30"
+    description: Podinfo Helm chart for Kubernetes
+    digest: 6630a49a5b73ae30a06250ecc32f1152df40b15b8276ace5503f863c8dc7bd4e
+    home: https://github.com/stefanprodan/podinfo
+    kubeVersion: '>=1.19.0-0'
+    maintainers:
+    - email: stefanprodan@users.noreply.github.com
+      name: stefanprodan
+    name: podinfo
+    sources:
+    - https://github.com/stefanprodan/podinfo
+    urls:
+    - https://bhaveshbhagat.github.io/Helm-Repo/podinfo-6.0.4.tgz
+    version: 6.0.4
+  - apiVersion: v1
+    appVersion: 6.0.3
+    created: "2023-10-31T11:19:31.119043137+05:30"
+    description: Podinfo Helm chart for Kubernetes
+    digest: e30b95a08787de69ffdad3c232d65cfb131b5b50c6fd44295f48a078fceaa44e
+    home: https://github.com/stefanprodan/podinfo
+    kubeVersion: '>=1.19.0-0'
+    maintainers:
+    - email: stefanprodan@users.noreply.github.com
+      name: stefanprodan
+    name: podinfo
+    sources:
+    - https://github.com/stefanprodan/podinfo
+    urls:
+    - https://bhaveshbhagat.github.io/Helm-Repo/podinfo-6.0.3.tgz
+    version: 6.0.3
+  - apiVersion: v1
+    appVersion: 6.0.2
+    created: "2023-10-31T11:19:31.117978774+05:30"
+    description: Podinfo Helm chart for Kubernetes
+    digest: 0ebea59ca36fe7502c8ede1ce4fc28600057f96842844b2f2c1dd207f1126222
+    home: https://github.com/stefanprodan/podinfo
+    kubeVersion: '>=1.19.0-0'
+    maintainers:
+    - email: stefanprodan@users.noreply.github.com
+      name: stefanprodan
+    name: podinfo
+    sources:
+    - https://github.com/stefanprodan/podinfo
+    urls:
+    - https://bhaveshbhagat.github.io/Helm-Repo/podinfo-6.0.2.tgz
+    version: 6.0.2
+  - apiVersion: v1
+    appVersion: 6.0.1
+    created: "2023-10-31T11:19:31.116669745+05:30"
+    description: Podinfo Helm chart for Kubernetes
+    digest: 9d366c9afcef90b37684bbf2afd2749633783f5c489a4145728498a54cec8d3d
+    home: https://github.com/stefanprodan/podinfo
+    kubeVersion: '>=1.19.0-0'
+    maintainers:
+    - email: stefanprodan@users.noreply.github.com
+      name: stefanprodan
+    name: podinfo
+    sources:
+    - https://github.com/stefanprodan/podinfo
+    urls:
+    - https://bhaveshbhagat.github.io/Helm-Repo/podinfo-6.0.1.tgz
+    version: 6.0.1
+  - apiVersion: v1
+    appVersion: 6.0.0
+    created: "2023-10-31T11:19:31.115618099+05:30"
+    description: Podinfo Helm chart for Kubernetes
+    digest: aed86105891a9b1db588128878b79425cf6447e69b1012119e82c1d37c68ae67
+    home: https://github.com/stefanprodan/podinfo
+    kubeVersion: '>=1.19.0-0'
+    maintainers:
+    - email: stefanprodan@users.noreply.github.com
+      name: stefanprodan
+    name: podinfo
+    sources:
+    - https://github.com/stefanprodan/podinfo
+    urls:
+    - https://bhaveshbhagat.github.io/Helm-Repo/podinfo-6.0.0.tgz
+    version: 6.0.0
+generated: "2023-10-31T11:19:31.114338246+05:30"
