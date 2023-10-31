@@ -1,0 +1,10 @@
+apiVersion: source.toolkit.fluxcd.io/v1
+kind: GitRepository
+metadata:
+  name: autodemo
+  namespace: flux-system
+spec:
+  interval: 5m0s
+  url: https://github.com/BhaveshBhagat/Helm-Repo
+  ref:
+    branch: gh-pages
