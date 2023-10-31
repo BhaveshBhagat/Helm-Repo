@@ -1,28 +1,24 @@
 apiVersion: image.toolkit.fluxcd.io/v1beta1
 kind: ImageUpdateAutomation
 metadata:
-  name: imgautomate
+  name: autoimg
   namespace: flux-system
 spec:
   interval: 1m
   sourceRef:
     kind: GitRepository
-    name: poddemo
+    name: autodemo
   git:
     checkout:
       ref:
-        branch: master
+        branch: gh-pages
     commit:
       author:
-        email: bhaveshbhagat724@gmail.com
-        name: BhaveshBhagat
+        name: Kirti Baliyan
       messageTemplate: '{{range .Updated.Images}}{{println .}}{{end}}'
-      signingKey:
-        secretRef:
-          name: pgp-public
     push:
-      branch: master
+      branch: gh-pages
   update:
-    path: ./kustomize
+    path: .
     strategy: Setters
        	
